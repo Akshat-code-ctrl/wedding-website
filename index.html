@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarav & Ananya | Wedding Invitation</title>
+  <meta name="description" content="Aap sabko hamari shaadi mein aamantran hai." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Poppins:wght@300;400;500&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="locked">
+
+  <!-- ===== SPLASH / TAP TO ENTER ===== -->
+  <div id="splash">
+    <div class="splash-frame">
+      <div class="om">ॐ</div>
+      <p class="splash-small">Shri Ganeshaya Namah</p>
+      <h1 class="script">Aarav <span>&amp;</span> Ananya</h1>
+      <p class="splash-small">Aap sabko saadar aamantran hai</p>
+      <button id="enterBtn" class="btn-gold">Invitation Kholein</button>
+      <p class="splash-hint">♪ Music ke saath behtar anubhav</p>
+    </div>
+  </div>
+
+  <!-- Music toggle -->
+  <button id="musicBtn" class="music-btn" aria-label="Music on/off" title="Music on/off">♪</button>
+  <audio id="bgm" src="assets/music.mp3" loop preload="auto"></audio>
+
+  <!-- Falling petals -->
+  <div id="petals" aria-hidden="true"></div>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <div class="hero-inner reveal">
+      <p class="hindi">॥ श्री गणेशाय नमः ॥</p>
+      <p class="eyebrow">We are getting married</p>
+      <h1 class="names script">Aarav <span>&amp;</span> Ananya</h1>
+      <div class="divider"><span>❖</span></div>
+      <p class="date-line">12 December 2026</p>
+      <p class="place-line">The Royal Palace, Your City</p>
+      <div id="countdown" class="countdown">
+        <div><b id="cd-d">00</b><small>Din</small></div>
+        <div><b id="cd-h">00</b><small>Ghante</small></div>
+        <div><b id="cd-m">00</b><small>Minute</small></div>
+        <div><b id="cd-s">00</b><small>Second</small></div>
+      </div>
+      <a href="#invite" class="scroll-down">↓</a>
+    </div>
+  </header>
+
+  <!-- ===== INVITE MESSAGE ===== -->
+  <section id="invite" class="section">
+    <div class="container narrow center reveal">
+      <h2 class="section-title">Aamantran</h2>
+      <div class="divider"><span>❖</span></div>
+      <p class="hindi big">हमारे जीवन के इस सबसे सुंदर पल में<br />आपकी उपस्थिति हमारे लिए आशीर्वाद होगी।</p>
+      <p class="lead">
+        Do dil, do parivaar aur ek khoobsurat safar ki shuruaat.
+        Hum apne pyaare parivaar aur doston ko is shubh avsar par
+        hamare saath khushiyan baantne ke liye aamantrit karte hain.
+      </p>
+      <div class="families">
+        <div>
+          <h3>Groom</h3>
+          <p class="name">Aarav Sharma</p>
+          <p class="sub">Son of Mr. Rajesh Sharma &amp; Mrs. Sunita Sharma</p>
+        </div>
+        <div class="amp">&amp;</div>
+        <div>
+          <h3>Bride</h3>
+          <p class="name">Ananya Verma</p>
+          <p class="sub">Daughter of Mr. Anil Verma &amp; Mrs. Meena Verma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section id="events" class="section dark">
+    <div class="container reveal">
+      <h2 class="section-title light">Shaadi ke Functions</h2>
+      <div class="divider"><span>❖</span></div>
+      <div class="timeline">
+
+        <div class="event">
+          <div class="event-icon">🌿</div>
+          <h3>Mehendi</h3>
+          <p class="when">10 December 2026 · 4:00 PM</p>
+          <p class="where">Garden Lawn, The Royal Palace</p>
+          <p class="note">Dress code: Green &amp; Yellow</p>
+        </div>
+
+        <div class="event">
+          <div class="event-icon">💃</div>
+          <h3>Sangeet</h3>
+          <p class="when">11 December 2026 · 7:00 PM</p>
+          <p class="where">Grand Ballroom, The Royal Palace</p>
+          <p class="note">Dress code: Glam &amp; Festive</p>
+        </div>
+
+        <div class="event">
+          <div class="event-icon">🔥</div>
+          <h3>Pheras &amp; Shaadi</h3>
+          <p class="when">12 December 2026 · 7:30 PM</p>
+          <p class="where">Mandap Lawn, The Royal Palace</p>
+          <p class="note">Dress code: Traditional</p>
+        </div>
+
+        <div class="event">
+          <div class="event-icon">🥂</div>
+          <h3>Reception</h3>
+          <p class="when">13 December 2026 · 8:00 PM</p>
+          <p class="where">Crystal Hall, The Royal Palace</p>
+          <p class="note">Dress code: Formal</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Hamari Kahani</h2>
+      <div class="divider"><span>❖</span></div>
+      <p class="lead center">Kuch khoobsurat pal jo humne saath bitaaye.</p>
+      <div class="gallery">
+        <div class="g-item tall" style="--img:url('assets/photo1.jpg')"><span>Photo 1</span></div>
+        <div class="g-item" style="--img:url('assets/photo2.jpg')"><span>Photo 2</span></div>
+        <div class="g-item" style="--img:url('assets/photo3.jpg')"><span>Photo 3</span></div>
+        <div class="g-item wide" style="--img:url('assets/photo4.jpg')"><span>Photo 4</span></div>
+        <div class="g-item tall" style="--img:url('assets/photo5.jpg')"><span>Photo 5</span></div>
+        <div class="g-item" style="--img:url('assets/photo6.jpg')"><span>Photo 6</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VENUE ===== -->
+  <section id="venue" class="section cream">
+    <div class="container narrow center reveal">
+      <h2 class="section-title">Venue</h2>
+      <div class="divider"><span>❖</span></div>
+      <p class="name">The Royal Palace</p>
+      <p class="lead">Palace Road, Your City, State - 000000</p>
+      <a class="btn-gold" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/search/?api=1&query=The+Royal+Palace">📍 Google Maps par dekhein</a>
+    </div>
+  </section>
+
+  <!-- ===== RSVP ===== -->
+  <section id="rsvp" class="section">
+    <div class="container narrow reveal">
+      <h2 class="section-title center">RSVP</h2>
+      <div class="divider"><span>❖</span></div>
+      <p class="lead center">Kripya apni upasthiti ki pushti zaroor karein.</p>
+      <form id="rsvpForm" class="rsvp">
+        <input type="text" id="gName" placeholder="Aapka naam" required />
+        <select id="gAttend" required>
+          <option value="Zaroor aayenge">Zaroor aayenge 🎉</option>
+          <option value="Nahi aa paayenge">Nahi aa paayenge 🙏</option>
+        </select>
+        <input type="number" id="gCount" min="1" max="10" value="1" placeholder="Kitne log" />
+        <textarea id="gMsg" rows="3" placeholder="Hamare liye ek sandesh (optional)"></textarea>
+        <button type="submit" class="btn-gold">WhatsApp par bhejein</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p class="script big">Aarav &amp; Ananya</p>
+    <p>12.12.2026</p>
+    <p class="tiny">Aapke aashirwad ke intezaar mein ❤</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
